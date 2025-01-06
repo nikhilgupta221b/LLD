@@ -8,6 +8,7 @@ import DecoratorDesignPattern.Decorators.ExtraMushroom;
 
 public class Main {
     public static void main(String[] args) {
+
         // On base veg pizza we need extra mushroom and extra cheese. Total cost = 100 + 10 + 20 = 130
         BasePizza pizza1 = new ExtraMushroom(new ExtraCheese(new VegBasePizza()));
         System.out.println("Your have to pay : " + pizza1.cost() + " rupees.");
