@@ -14,6 +14,7 @@ public class PaymentService {
     }
 
     public void makePayment(String paymentMethodName) {
-        paymentMethods.get(paymentMethodName).pay();
+        PaymentMethods paymentMethod = paymentMethods.get(paymentMethodName);
+        paymentMethod.pay();
     }
 }

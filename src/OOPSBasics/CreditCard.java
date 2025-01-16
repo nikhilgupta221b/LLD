@@ -7,7 +7,7 @@ public class CreditCard extends Card {
 
     @Override
     public void pay() {
-        System.out.println("Making payment via Credit Card: " + super.cardNumber);
+        System.out.println("Making payment via Credit Card: " + super.getCardNumber());
     }
 
 }

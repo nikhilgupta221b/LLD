@@ -1,16 +1,19 @@
 package OOPSBasics;
 
-public class Card implements PaymentMethods {
+abstract public class Card implements PaymentMethods {
     protected String cardNumber;
     protected String userName;
 
-    Card(String cardNumber, String userName) {
+    public Card(String cardNumber, String userName) {
         this.cardNumber = cardNumber;
         this.userName = userName;
     }
 
-    @Override
-    public void pay() {
+    public String getCardNumber() {
+        return cardNumber;
+    }
 
+    public String getUserName() {
+        return userName;
     }
 }

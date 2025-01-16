@@ -7,6 +7,6 @@ public class DebitCard extends Card{
 
     @Override
     public void pay() {
-        System.out.println("Making payment via Debit Card: " + super.cardNumber);
+        System.out.println("Making payment via Debit Card: " + super.getCardNumber());
     }
 }
