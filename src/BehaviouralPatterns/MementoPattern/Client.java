@@ -3,14 +3,18 @@ package BehaviouralPatterns.MementoPattern;
 public class Client {
     public static void main(String[] args) {
         Editor editor = new Editor();
+        EditorCaretaker caretaker = new EditorCaretaker();
+
         editor.write("Hello World1");
-        editor.save();
+        caretaker.save(editor);
         editor.write("Hello World2");
-        editor.save();
+        caretaker.save(editor);
         editor.write("Hello World3");
-        editor.save();
-        editor.undo();
-        editor.undo();
+        caretaker.save(editor);
+
+        caretaker.undo(editor);
+        caretaker.undo(editor);
+
         System.out.println(editor.getContent());
     }
 }

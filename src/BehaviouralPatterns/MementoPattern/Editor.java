@@ -12,11 +12,11 @@ public class Editor {
         return content;
     }
 
-    public EditorMemento save() {
+    public EditorMemento saveState() {
         return new EditorMemento(content);
     }
 
-    public void restore(EditorMemento memento) {
+    public void restoreState(EditorMemento memento) {
         content = memento.getContent();
     }
 }
