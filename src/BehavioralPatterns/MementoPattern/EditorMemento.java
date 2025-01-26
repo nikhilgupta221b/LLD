@@ -1,4 +1,4 @@
-package BehaviouralPatterns.MementoPattern;
+package BehavioralPatterns.MementoPattern;
 
 public class EditorMemento {
     String content;

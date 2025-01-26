@@ -1,4 +1,4 @@
-package BehaviouralPatterns.StrategyPattern.BadCode;
+package BehavioralPatterns.StrategyPattern.BadCode;
 
 public class PaymentService {
     public void pay(String paymentMethod) {

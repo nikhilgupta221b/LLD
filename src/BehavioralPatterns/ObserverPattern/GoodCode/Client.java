@@ -1,4 +1,4 @@
-package BehaviouralPatterns.ObserverPattern.GoodCode;
+package BehavioralPatterns.ObserverPattern.GoodCode;
 
 public class Client {
     public static void main(String[] args) {

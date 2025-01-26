@@ -1,4 +1,4 @@
-package BehaviouralPatterns.StrategyPattern.GoodCode;
+package BehavioralPatterns.StrategyPattern.GoodCode;
 
 public interface PaymentStrategy {
     void processPayment();

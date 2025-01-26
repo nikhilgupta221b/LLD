@@ -1,4 +1,4 @@
-package BehaviouralPatterns.ObserverPattern.GoodCode;
+package BehavioralPatterns.ObserverPattern.GoodCode;
 
 public class MobileDevice implements Observer {
     @Override

@@ -1,4 +1,4 @@
-package BehaviouralPatterns.ObserverPattern.BadCode;
+package BehavioralPatterns.ObserverPattern.BadCode;
 
 public class WeatherStation {
     private float temperature;

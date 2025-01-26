@@ -1,4 +1,4 @@
-package BehaviouralPatterns.MementoPattern;
+package BehavioralPatterns.MementoPattern;
 
 public class Client {
     public static void main(String[] args) {

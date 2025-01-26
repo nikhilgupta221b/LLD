@@ -1,4 +1,4 @@
-package BehaviouralPatterns.StrategyPattern.BadCode;
+package BehavioralPatterns.StrategyPattern.BadCode;
 
 public class Client {
     public static void main(String[] args) {

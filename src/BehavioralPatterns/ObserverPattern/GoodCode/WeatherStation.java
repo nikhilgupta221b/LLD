@@ -1,4 +1,4 @@
-package BehaviouralPatterns.ObserverPattern.GoodCode;
+package BehavioralPatterns.ObserverPattern.GoodCode;
 
 import java.util.ArrayList;
 import java.util.List;
