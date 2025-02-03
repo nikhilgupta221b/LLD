@@ -1,8 +1,5 @@
 package BehavioralPatterns.IteratorPattern.BadCode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Book {
     String title;
 
