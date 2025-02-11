@@ -1,7 +1,7 @@
 package CreationalPatterns.AbstractFactoryPattern.BadCode;
 
 public class MacOSScrollBar {
-    public void render() {
-        System.out.println("MacOS ScrollBar");
+    public void scroll() {
+        System.out.println("MacOS Scrolling");
     }
 }

@@ -8,6 +8,6 @@ public class Client {
         WindowsButton windowsButton = new WindowsButton();
         windowsButton.render();
         MacOSScrollBar macOSScrollBar = new MacOSScrollBar();
-        macOSScrollBar.render();
+        macOSScrollBar.scroll();
     }
 }
